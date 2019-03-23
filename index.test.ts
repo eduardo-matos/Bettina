@@ -1,5 +1,5 @@
-const { expect } = require('chai');
-const { milliseconds, seconds, minutes } = require('./index');
+import { expect } from 'chai';
+import { milliseconds, seconds, minutes } from './index';
 
 it('milliseconds', () => {
   expect(milliseconds(10)).to.equal(10);
