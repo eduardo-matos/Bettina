@@ -2,9 +2,10 @@
   "name": "bettina",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "mocha -r ts-node/register *.test.ts"
+    "test": "mocha -r ts-node/register *.test.ts",
+    "build": "rm -rf ./dist && tsc"
   },
   "author": "Meetup Js People",
   "license": "MIT",
