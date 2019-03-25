@@ -16,13 +16,13 @@ npm install
 npm test
 ```
 
-## Build
+## Building
 
 ```
 npm run build
 ```
 
-## Publihing
+## Publishing
 
 ```
 npm publish
